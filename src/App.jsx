@@ -38,7 +38,7 @@ function prepareGoods(goodsServer, sort, reverse) {
     });
   }
 
-  if (reverse === REVERSE) {
+  if (reverse) {
     goods.reverse();
   }
 
